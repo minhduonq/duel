@@ -1,0 +1,9 @@
+# Python 3.11-3.13. torch: the CPU build is enough for DINOv3 (9 images per bundle).
+openai>=2.9
+httpx==0.28.1
+pydantic>=2.12
+loguru==0.7.3
+numpy>=2.2
+pillow>=11
+torch>=2.6
+transformers>=4.56  # first release with DINOv3
